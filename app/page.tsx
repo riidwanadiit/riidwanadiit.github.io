@@ -1,3 +1,3 @@
-export default function Home() {
-  return <h1>Hellow</h1>;
-}
+import Homepage from "@/features/homepage";
+
+export default Homepage
