@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 px-20 h-full w-full relative overflow-hidden">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 px-0 md:px-20 h-full w-full relative overflow-hidden">
       <div className="flex items-center justify-start order-2 md:order-1 min-w-full">
         <TypingIntro />
       </div>
@@ -17,7 +17,7 @@ const Intro = () => {
             className="object-cover"
           />
         </div>
-        <h2 className="text-white text-7xl font-bold absolute bottom-0 right-0 text-right">Ridwan Aditya Saputra</h2>
+        <h2 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold absolute bottom-0 right-0 text-right">Ridwan Aditya Saputra</h2>
       </div>
     </div>
   );

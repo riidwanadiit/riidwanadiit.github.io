@@ -3,9 +3,6 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaPhone,
-  FaTwitter,
-  FaWhatsapp,
 } from "react-icons/fa";
 
 const Contact = () => {
